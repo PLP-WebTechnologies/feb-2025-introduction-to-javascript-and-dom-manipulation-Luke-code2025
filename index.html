@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medication Safety</title>
+  <link rel="stylesheet" href="styles.css">
+  
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .highlight { color: green; font-weight: bold; }
+    .hidden { display: none; }
+    button { margin-top: 10px; padding: 5px 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Medication Safety Matters</h1>
+  </header>
+  <section>
+    <p id="intro">Understanding the importance of medication safety can save lives. Involving pharmacists is key.</p>
+    <ul id="tips">
+      <li>Ask your pharmacist about potential side effects.</li>
+      <li>Review your medication list regularly.</li>
+      <li>Never share your prescriptions.</li>
+    </ul>
+    <button onclick="changeMessage()">Learn More</button>
+    <button onclick="toggleAdvice()">Toggle Pharmacist Advice</button>
+    <div id="advice" class="hidden">
+      <p>Pharmacists can provide essential counseling and check for drug interactions. Make them part of your care team. With advanced konowledge in pharmacology and pharmaceutics, pharmacists are best positioned to educate patents on proper use of drugs, the possible side effects and how to manage any medical emergency.</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 SmartHealthMovement</p>
+  </footer>
+  <script defer src="script.js"></script>
+</body>
+</html>
